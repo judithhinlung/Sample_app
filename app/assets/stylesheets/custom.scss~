@@ -1,7 +1,15 @@
  @import "bootstrap-sprockets";
 @import "bootstrap";
-<<<<<<< HEAD
+
+/* mixins, variables, etc. */
+
 $gray-medium-light: #eaeaea;
+
+@mixin box_sizing {
+  -moz-box-sizing:    border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing:         border-box;
+}
 
 /* universal */
 
@@ -95,17 +103,6 @@ footer {
   }
 }
 
-=======
-
-/* mixins, variables, etc. */
-
-$gray-medium-light: #eaeaea;
-
-@mixin box_sizing {
-  -moz-box-sizing:    border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing:         border-box;
-}
 /* miscellaneous */
 
 .debug_dump {
@@ -177,4 +174,3 @@ input {
     color: $state-danger-text;
   }
 }
->>>>>>> sign-up
